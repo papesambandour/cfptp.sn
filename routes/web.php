@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('layout/main');
+    return view('pages/home');
+});
+Route::get('/quisommenous',function (){
+    return view('quisommenous');
 });

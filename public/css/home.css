@@ -1,0 +1,25 @@
+.myheader
+{
+    background: url("../img/logo.jpg");
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.titleHeader
+{
+    color: white ;
+    margin: 0px;
+}
+.cftpdevant
+{
+    background: url("../img/cftpdevant.jpg") ;
+    background-size: 100% 100%;
+}
+.hauteurImageAccueil
+{
+    height: 900px;
+}
+.imgAccueil
+{
+    margin: 25px;
+}
