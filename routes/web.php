@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/quisommenous',function (){
     return view('quisommenous');
 });
+Route::resource('formation','Formation');

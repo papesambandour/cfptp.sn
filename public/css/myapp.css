@@ -1,0 +1,74 @@
+
+/*   http://www.conseil-webmaster.com/formation/bootstrap/menu-navigation-bootstrap.php  */
+.slideImgContainer
+{
+    height: 500px;
+    background: grey ;
+    color: white;
+    border-radius: 10px;
+    margin: 50px 0 ;
+    padding: 0px;
+    position: relative;
+}
+
+.headBienvenu
+{
+    margin: 50px ;
+    text-align: center;
+}
+.arrowSlideLeft{
+    text-align: left;
+    top: 219px;
+    left: 15px;
+    font-size: 70px;
+    position: absolute;
+    color: grey;
+
+}
+.arrowSlideLeft:hover
+{
+    font-size: 100px;
+    top: 190px;
+    cursor: pointer;
+}
+.arrowSlideRight
+{
+    text-align: right;
+    position: absolute;
+    top: 219px;
+    left: 1145px;
+    font-size: 80px;
+    color: grey;
+}
+.arrowSlideRight:hover
+{
+    font-size: 100px;
+    top: 200px;
+    cursor: pointer;
+}
+.imgslide
+{
+    width: 1200px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    display: none;
+}
+
+.imgslide.active{
+    display: inline-block;
+}
+
+.barreMenu
+{
+    background-color: rgba(255,255,255,0.5);
+}
+.Myload{
+
+}
+
+.espaceItemMenu
+{
+    margin-right: 20px;
+}
